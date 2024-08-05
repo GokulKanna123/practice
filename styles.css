@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    align-items: center;
+    background-color: #ec1616d0;
+    padding: 40%;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .icon {
+    position: relative;
+    font-size: 32px;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: #007bff;
+  }
+  
+  .tooltip {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    white-space: nowrap;
+  }
+  
+  .icon:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+ 
+  .icon:nth-child(1):hover {
+    color: #3b5998; /
+  }
+  
+  .icon:nth-child(2):hover {
+    color: #1da1f2; 
+  }
+  
+  .icon:nth-child(3):hover {
+    color: #e4405f; 
+  }
+  
+  .icon:nth-child(4):hover {
+    color: #333; 
+  }
+  
+  .icon:nth-child(5):hover {
+    color: #ff0000; 
+  }
+  
